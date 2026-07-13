@@ -12,7 +12,7 @@ defaults:
     working-directory: ./document-service/documents-ui
 jobs:
   documents-ui-ci:
-    uses: bcgov/bcregistry-sre/.github/workflows/frontend-ci.yaml@main
+    uses: panish16/bcregistry-sre/.github/workflows/frontend-ci.yaml@feat/upgrade-pnpm-v11
     with:
       app_name: "documents-ui"
       working_directory: "./document-service/documents-ui"
